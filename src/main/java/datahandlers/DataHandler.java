@@ -18,6 +18,8 @@ public class DataHandler {
     }
 
     private void handle(String[] args) {
+        //это основной метод для обработки данных. его алгоритм описан на гитхабе в README
+
         int length = args.length;
 
         logger.info("Input line: " + Arrays.toString(args));
@@ -29,7 +31,7 @@ public class DataHandler {
             if (timezone == null) {
                 city = getCityFromInput(args,length);
                 if (!checkCityName(city)) {
-                    message = "Последий параметр не является идентификатором. " +
+                    message = "Последий параметр не является идентификатором, значит относится к городу. " +
                                 "Доп символы кроме пробелов и букв в названии города недопустимы: " +
                                 city +
                                 "\nПрограмма завершена.";
@@ -76,13 +78,13 @@ public class DataHandler {
         return id;
     }
 
-    private boolean checkCityName(String city) {
+    private boolean checkCityName(String city) { //проверка валидности названия города
         if (city.matches("^[ A-Za-z]+$"))
             return true;
         return false;
     }
 
-    private String getCityFromInput(String[] arr, int length) {
+    private String getCityFromInput(String[] arr, int length) { //компонуем город из входного массива
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < length; i++)
             sb.append((arr[i]).trim()).append(" ");
@@ -90,7 +92,7 @@ public class DataHandler {
         return sb.toString();
     }
 
-    private String getTimeZoneFromInput(String id) {
+    private String getTimeZoneFromInput(String id) { //пытаемся получить таймзону из последнего аргумента входных данных
         String newId = id.trim().replaceAll("[\\s]+", "_");
 
         String timezone = ZoneId.getAvailableZoneIds().stream()
@@ -100,7 +102,7 @@ public class DataHandler {
         return timezone;
     }
 
-    private String getTimeZoneFromCity(String id) {
+    private String getTimeZoneFromCity(String id) { //пытаемся получить таймзону из названия города
         String newId = id.trim().replaceAll("[\\s]+", "_");
 
         String timezone = ZoneId.getAvailableZoneIds().stream()

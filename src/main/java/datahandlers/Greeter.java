@@ -43,7 +43,7 @@ public class Greeter {
         return greetingStr;
     }
 
-    private int getTimeCode(int hour) {
+    private int getTimeCode(int hour) {  //получаем код времени дня (для чтения нужной фразы из файла) по текущему времени
         if (hour >= 6 && hour < 9)
             return 1;
         if (hour >= 9 && hour < 19)
@@ -54,7 +54,7 @@ public class Greeter {
         return 4;
     }
 
-    private String getResourceByCountryCode(String cc) {
+    private String getResourceByCountryCode(String cc) { //определяем название файла по локали
         if (cc.equals("RU")) {
             return "greetings_ru";
         } else {
@@ -62,7 +62,7 @@ public class Greeter {
         }
     }
 
-    private String createGreeting(String pathToLocale, int greetingCode) {
+    private String createGreeting(String pathToLocale, int greetingCode) { //идем по файлу и ищем соответсвующую фразу
         StringBuilder sb = new StringBuilder();
 
         try (Scanner in = new Scanner(new File("./"+pathToLocale))) {

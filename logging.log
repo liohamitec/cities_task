@@ -116,3 +116,38 @@
 2018-04-19 16:47:36 INFO  DataHandler:23 - Input line: [Kiev_]
 2018-04-19 16:47:36 ERROR DataHandler:62 - Доп символы кроме пробелов и букв в названии города недопустимы: Kiev_ 
 Программа завершена.
+2018-04-19 17:52:41 INFO  DataHandler:25 - Input line: []
+2018-04-19 17:52:41 ERROR DataHandler:57 - Город не указан! Программа завершена.
+2018-04-19 17:53:03 ERROR DataHandler:25 - Параметр city не может быть пустым!
+2018-04-19 17:53:03 ERROR DataHandler:21 - Ни один из параметров не может быть null!
+2018-04-19 17:53:03 INFO  DataHandler:30 - Час текущей таймзоны: 14
+2018-04-19 17:53:03 INFO  DataHandler:36 - Локаль: US
+2018-04-19 17:53:03 INFO  DataHandler:41 - Greeter class returned string: Good day, CITYNAME
+2018-04-19 17:53:03 INFO  DataHandler:30 - Час текущей таймзоны: 0
+2018-04-19 17:53:03 INFO  DataHandler:36 - Локаль: US
+2018-04-19 17:53:03 INFO  DataHandler:41 - Greeter class returned string: Good night, CITYNAME
+2018-04-19 17:53:03 ERROR DataHandler:21 - Ни один из параметров не может быть null!
+2018-04-19 17:53:03 INFO  DataHandler:30 - Час текущей таймзоны: 10
+2018-04-19 17:53:03 INFO  DataHandler:36 - Локаль: US
+2018-04-19 17:53:03 INFO  DataHandler:41 - Greeter class returned string: Good day, CITYNAME
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: []
+2018-04-19 17:53:03 ERROR DataHandler:49 - Параметр city не может быть пустым! Программа завершена.
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: []
+2018-04-19 17:53:03 ERROR DataHandler:57 - Город не указан! Программа завершена.
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: [Costa, Rica]
+2018-04-19 17:53:03 INFO  DataHandler:68 - city(DataHandle): Costa Rica , timezone(DataHandle): America/Costa_Rica
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: [Dnipro, Cuba]
+2018-04-19 17:53:03 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): Cuba
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: [City     ,      Name,           Etc/GMT+10]
+2018-04-19 17:53:03 INFO  DataHandler:68 - city(DataHandle): City Name , timezone(DataHandle): Etc/GMT+10
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: [CityOnCuba_, Cuba]
+2018-04-19 17:53:03 ERROR DataHandler:64 - Доп символы кроме пробелов и букв в названии города недопустимы: CityOnCuba_ 
+Программа завершена.
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: [CityOnCuba, Cuba!]
+2018-04-19 17:53:03 ERROR DataHandler:38 - Последий параметр не является идентификатором, значит относится к городу. Доп символы кроме пробелов и букв в названии города недопустимы: CityOnCuba Cuba! 
+Программа завершена.
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: [Dnipro]
+2018-04-19 17:53:03 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): GMT
+2018-04-19 17:53:03 INFO  DataHandler:25 - Input line: [Kiev_]
+2018-04-19 17:53:03 ERROR DataHandler:64 - Доп символы кроме пробелов и букв в названии города недопустимы: Kiev_ 
+Программа завершена.
