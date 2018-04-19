@@ -1,0 +1,18 @@
+2018-04-19 18:19:24 INFO  DataHandler:25 - Input line: [Dnipro]
+2018-04-19 18:19:24 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): GMT
+2018-04-19 18:19:24 INFO  DataHandler:30 - Час текущей таймзоны: 15
+2018-04-19 18:19:24 INFO  DataHandler:36 - Локаль: US
+2018-04-19 18:19:24 INFO  DataHandler:41 - Greeter class returned string: Dnipro 
+2018-04-19 18:19:41 INFO  DataHandler:25 - Input line: [Dnipro]
+2018-04-19 18:19:41 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): GMT
+2018-04-19 18:19:41 INFO  DataHandler:30 - Час текущей таймзоны: 15
+2018-04-19 18:19:41 INFO  DataHandler:36 - Локаль: US
+2018-04-19 18:19:41 INFO  DataHandler:41 - Greeter class returned string: Good day, Dnipro 
+2018-04-19 18:19:51 INFO  DataHandler:25 - Input line: [Dnipro, GMT+10]
+2018-04-19 18:19:51 ERROR DataHandler:38 - Последий параметр не является идентификатором, значит относится к городу. Доп символы кроме пробелов и букв в названии города недопустимы: Dnipro GMT+10 
+Программа завершена.
+2018-04-19 18:20:24 INFO  DataHandler:25 - Input line: [Dnipro, Etc/GMT+10]
+2018-04-19 18:20:24 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): Etc/GMT+10
+2018-04-19 18:20:24 INFO  DataHandler:30 - Час текущей таймзоны: 5
+2018-04-19 18:20:24 INFO  DataHandler:36 - Локаль: US
+2018-04-19 18:20:24 INFO  DataHandler:41 - Greeter class returned string: Good night, Dnipro 

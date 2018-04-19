@@ -49,3 +49,26 @@
 2018-04-19 15:41:51 INFO  DataHandler:32 - Час текущей таймзоны: 15
 2018-04-19 15:41:51 INFO  DataHandler:38 - Локаль: RU
 2018-04-19 15:41:51 INFO  DataHandler:43 - Greeter class returned string: Добрый день, Kiev 
+2018-04-19 17:54:37 INFO  DataHandler:23 - Input line: [Dnipro]
+2018-04-19 17:54:37 INFO  DataHandler:66 - city(DataHandle): Dnipro , timezone(DataHandle): GMT
+2018-04-19 17:54:37 INFO  DataHandler:32 - Час текущей таймзоны: 14
+2018-04-19 17:54:37 INFO  DataHandler:38 - Локаль: US
+2018-04-19 17:54:37 INFO  DataHandler:43 - Greeter class returned string: Good day, Dnipro 
+2018-04-19 17:54:49 INFO  DataHandler:23 - Input line: [Dnipro, GMT+10]
+2018-04-19 17:54:49 ERROR DataHandler:36 - Последий параметр не является идентификатором. Доп символы кроме пробелов и букв в названии города недопустимы: Dnipro GMT+10 
+Программа завершена.
+2018-04-19 17:54:57 INFO  DataHandler:23 - Input line: [Dnipro, Cuba]
+2018-04-19 17:54:57 INFO  DataHandler:66 - city(DataHandle): Dnipro , timezone(DataHandle): Cuba
+2018-04-19 17:54:57 INFO  DataHandler:32 - Час текущей таймзоны: 10
+2018-04-19 17:54:57 INFO  DataHandler:38 - Локаль: US
+2018-04-19 17:54:57 INFO  DataHandler:43 - Greeter class returned string: Good day, Dnipro 
+2018-04-19 18:08:40 INFO  DataHandler:25 - Input line: []
+2018-04-19 18:08:40 ERROR DataHandler:57 - Город не указан! Программа завершена.
+2018-04-19 18:08:46 INFO  DataHandler:25 - Input line: [Dnipro]
+2018-04-19 18:08:46 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): GMT
+2018-04-19 18:08:46 INFO  DataHandler:30 - Час текущей таймзоны: 15
+2018-04-19 18:08:46 INFO  DataHandler:36 - Локаль: US
+2018-04-19 18:08:46 INFO  DataHandler:41 - Greeter class returned string: Good day, Dnipro 
+2018-04-19 18:08:55 INFO  DataHandler:25 - Input line: [Dnipro, GMT+10]
+2018-04-19 18:08:55 ERROR DataHandler:38 - Последий параметр не является идентификатором, значит относится к городу. Доп символы кроме пробелов и букв в названии города недопустимы: Dnipro GMT+10 
+Программа завершена.
