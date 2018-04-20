@@ -28,7 +28,7 @@ public class Greeter {
         }
 
         int curHour = ZonedDateTime.now(id).getHour();
-        logger.info("Hour in specific timezone: " + curHour);
+        logger.info("Hour in a specific timezone: " + curHour);
 
         String locale = Locale.getDefault().getCountry();
         logger.info("Locale: " + locale);
