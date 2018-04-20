@@ -40,7 +40,7 @@ public class Greeter {
         return greetingStr;
     }
 
-    private String getGreetingByTimeCode(int hour) {  //получаем код времени дня (для чтения нужной фразы из файла) по текущему времени
+    private String getGreetingByTimeCode(int hour) {  //получаем приветствие по текущему времени
         if (hour >= 6 && hour < 9)
             return res.getString("msgGreeting.morning");
         if (hour >= 9 && hour < 19)
