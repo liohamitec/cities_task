@@ -8,13 +8,13 @@ import static org.junit.Assert.*;
 
 public class DataHandlerTest {
 
-    @Test(expected = RuntimeException.class)
+    @Test(expected = WrongInputException.class)
     public void noInputData() {
         String[] args = new String[]{};
         DataHandler dataHandler = new DataHandler(args);
     }
 
-    @Test(expected = RuntimeException.class)
+    @Test(expected = WrongInputException.class)
     public void emptyData() {
         String[] args = new String[]{""};
         DataHandler dataHandler = new DataHandler(args);
@@ -22,7 +22,7 @@ public class DataHandlerTest {
 
     @Test
     public void tonsOfSpacesInData() {
-        String[] args = new String[]{"City     ", "     Name","          Etc/GMT+10"};
+        String[] args = new String[]{"City     ", "     Name    ","          Etc/GMT+10"};
         DataHandler dataHandler = new DataHandler(args);
 
         String resultMsg = dataHandler.getCity();
