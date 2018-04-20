@@ -11,7 +11,6 @@ import java.util.ResourceBundle;
 import static org.junit.Assert.*;
 
 public class GreeterTest {
-    final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     Greeter greeter = new Greeter();
 
     private final static String BUNDLE_NAME_EN = "data_en_US";
