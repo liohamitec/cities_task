@@ -7,19 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41716967-c573-4bdd-9f2c-a26a6a4fafe9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cities_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging.log" beforeDir="false" afterPath="$PROJECT_DIR$/logging.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cities_jar/cities.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cities_jar/cities.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/cities_jar/logging.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/cities_jar/logging.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greetings_en" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/greetings_ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cities_jar/greetings_en" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/cities_jar/greetings_ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datahandlers/DataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datahandlers/DataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GreeterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GreeterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cities-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cities-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cities-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/cities-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datahandlers/DataHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datahandlers/DataHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datahandlers/Greeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/datahandlers/Greeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greetings_en" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/greetings_ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/logging.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logging.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/DataHandlerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/DataHandlerTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/GreeterTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/GreeterTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-DataHandlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-DataHandlerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-GreeterTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-GreeterTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GreeterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GreeterTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,24 +41,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,8 +62,8 @@
       <file leaf-file-name="DataHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/DataHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="828">
+              <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +89,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Greeter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Greeter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +104,8 @@
       <file leaf-file-name="GreeterTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GreeterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+            <state relative-caret-position="1188">
+              <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -156,10 +150,10 @@
         <option value="$PROJECT_DIR$/src/test/java/DataHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/loggers/Logger.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java" />
         <option value="$PROJECT_DIR$/src/test/java/GreeterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/datahandlers/DataHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -187,11 +181,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="195" />
-    <option name="y" value="84" />
-    <option name="width" value="1551" />
-    <option name="height" value="929" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="202" />
+    <option name="width" value="1436" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -201,6 +194,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,8 +235,7 @@
               <item name="cities" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cities" type="b2602c69:ProjectViewProjectNode" />
@@ -259,9 +254,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,6 +261,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -296,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GreeterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="cities" />
@@ -400,52 +393,53 @@
       <updated>1524062256803</updated>
       <workItem from="1524062262769" duration="28624000" />
       <workItem from="1524137322591" duration="7663000" />
-      <workItem from="1524148290470" duration="2546000" />
+      <workItem from="1524148290470" duration="3214000" />
+      <workItem from="1524228845139" duration="22000" />
+      <workItem from="1524240819229" duration="4671000" />
+      <workItem from="1524245768257" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GreeterTest - 2018.04.19 at 14h 25m 17s.xml">
-      <configuration name="GreeterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHandlerTest - 2018.04.19 at 14h 25m 24s.xml">
-      <configuration name="DataHandlerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreeterTest - 2018.04.19 at 14h 25m 54s.xml">
-      <configuration name="GreeterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreeterTest - 2018.04.19 at 14h 26m 22s.xml">
-      <configuration name="GreeterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreeterTest - 2018.04.19 at 14h 28m 48s.xml">
-      <configuration name="GreeterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreeterTest - 2018.04.19 at 14h 29m 00s.xml">
-      <configuration name="GreeterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHandlerTest - 2018.04.19 at 14h 29m 05s.xml">
-      <configuration name="DataHandlerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DataHandlerTest - 2018.04.19 at 15h 43m 05s.xml">
-      <configuration name="DataHandlerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GreeterTest - 2018.04.19 at 15h 43m 12s.xml">
       <configuration name="GreeterTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GreeterTest - 2018.04.19 at 16h 46m 55s.xml">
       <configuration name="GreeterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GreeterTest - 2018.04.20 at 20h 11m 38s.xml">
+      <configuration name="GreeterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataHandlerTest - 2018.04.20 at 20h 11m 45s.xml">
+      <configuration name="DataHandlerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataHandlerTest - 2018.04.20 at 20h 22m 10s.xml">
+      <configuration name="DataHandlerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreeterTest - 2018.04.20 at 20h 22m 21s.xml">
+      <configuration name="GreeterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreeterTest - 2018.04.20 at 20h 25m 24s.xml">
+      <configuration name="GreeterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreeterTest - 2018.04.20 at 20h 25m 54s.xml">
+      <configuration name="GreeterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DataHandlerTest - 2018.04.20 at 20h 26m 03s.xml">
+      <configuration name="DataHandlerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreeterTest - 2018.04.20 at 20h 26m 09s.xml">
+      <configuration name="GreeterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38833000" />
+    <option name="totallyTimeSpent" value="44282000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="146" y="448" width="1551" height="929" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1032" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32919955" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -453,11 +447,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32601464" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.33145434" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3737245" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.25591883" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.37767756" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17099135" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.13247864" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -471,6 +465,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32919955" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,6 +480,151 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/WrongInputException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GreeterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/writers/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/DataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/WrongInputException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GreeterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/writers/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/DataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceptions/WrongInputException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GreeterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -634,17 +774,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/loggers/Logger.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/DataHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -662,33 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GreeterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/DataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -696,10 +809,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GreeterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="1188">
+          <caret line="82" column="32" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DataHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/DataHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="48" column="67" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datahandlers/Greeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -722,7 +862,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -770,7 +910,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

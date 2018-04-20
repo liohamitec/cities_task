@@ -1,18 +1,60 @@
-2018-04-19 18:19:24 INFO  DataHandler:25 - Input line: [Dnipro]
-2018-04-19 18:19:24 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): GMT
-2018-04-19 18:19:24 INFO  DataHandler:30 - Час текущей таймзоны: 15
-2018-04-19 18:19:24 INFO  DataHandler:36 - Локаль: US
-2018-04-19 18:19:24 INFO  DataHandler:41 - Greeter class returned string: Dnipro 
-2018-04-19 18:19:41 INFO  DataHandler:25 - Input line: [Dnipro]
-2018-04-19 18:19:41 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): GMT
-2018-04-19 18:19:41 INFO  DataHandler:30 - Час текущей таймзоны: 15
-2018-04-19 18:19:41 INFO  DataHandler:36 - Локаль: US
-2018-04-19 18:19:41 INFO  DataHandler:41 - Greeter class returned string: Good day, Dnipro 
-2018-04-19 18:19:51 INFO  DataHandler:25 - Input line: [Dnipro, GMT+10]
-2018-04-19 18:19:51 ERROR DataHandler:38 - Последий параметр не является идентификатором, значит относится к городу. Доп символы кроме пробелов и букв в названии города недопустимы: Dnipro GMT+10 
-Программа завершена.
-2018-04-19 18:20:24 INFO  DataHandler:25 - Input line: [Dnipro, Etc/GMT+10]
-2018-04-19 18:20:24 INFO  DataHandler:68 - city(DataHandle): Dnipro , timezone(DataHandle): Etc/GMT+10
-2018-04-19 18:20:24 INFO  DataHandler:30 - Час текущей таймзоны: 5
-2018-04-19 18:20:24 INFO  DataHandler:36 - Локаль: US
-2018-04-19 18:20:24 INFO  DataHandler:41 - Greeter class returned string: Good night, Dnipro 
+2018-04-20 20:28:11 INFO  DataHandler:29 - Input line: [Dnipro]
+2018-04-20 20:28:11 INFO  DataHandler:77 - city(DataHandle): Dnipro , timezone(DataHandle): GMT
+2018-04-20 20:28:11 INFO  DataHandler:31 - Hour in specific timezone: 17
+2018-04-20 20:28:11 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:28:11 INFO  DataHandler:38 - Greeter class returned string: Good day, Dnipro 
+2018-04-20 20:28:20 INFO  DataHandler:29 - Input line: [Dnipro, Etc/GMT+10]
+2018-04-20 20:28:20 INFO  DataHandler:77 - city(DataHandle): Dnipro , timezone(DataHandle): Etc/GMT+10
+2018-04-20 20:28:20 INFO  DataHandler:31 - Hour in specific timezone: 7
+2018-04-20 20:28:20 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:28:20 INFO  DataHandler:38 - Greeter class returned string: Good morning, Dnipro 
+2018-04-20 20:28:27 INFO  DataHandler:29 - Input line: [Dnipro, Etc/GMT+6]
+2018-04-20 20:28:27 INFO  DataHandler:77 - city(DataHandle): Dnipro , timezone(DataHandle): Etc/GMT+6
+2018-04-20 20:28:27 INFO  DataHandler:31 - Hour in specific timezone: 11
+2018-04-20 20:28:27 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:28:27 INFO  DataHandler:38 - Greeter class returned string: Good day, Dnipro 
+2018-04-20 20:28:32 INFO  DataHandler:29 - Input line: [Dnipro, Etc/GMT+8]
+2018-04-20 20:28:32 INFO  DataHandler:77 - city(DataHandle): Dnipro , timezone(DataHandle): Etc/GMT+8
+2018-04-20 20:28:32 INFO  DataHandler:31 - Hour in specific timezone: 9
+2018-04-20 20:28:32 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:28:32 INFO  DataHandler:38 - Greeter class returned string: Good day, Dnipro 
+2018-04-20 20:28:35 INFO  DataHandler:29 - Input line: [Dnipro, Etc/GMT+4]
+2018-04-20 20:28:35 INFO  DataHandler:77 - city(DataHandle): Dnipro , timezone(DataHandle): Etc/GMT+4
+2018-04-20 20:28:35 INFO  DataHandler:31 - Hour in specific timezone: 13
+2018-04-20 20:28:35 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:28:35 INFO  DataHandler:38 - Greeter class returned string: Good day, Dnipro 
+2018-04-20 20:28:37 INFO  DataHandler:29 - Input line: [Dnipro, Etc/GMT+2]
+2018-04-20 20:28:37 INFO  DataHandler:77 - city(DataHandle): Dnipro , timezone(DataHandle): Etc/GMT+2
+2018-04-20 20:28:37 INFO  DataHandler:31 - Hour in specific timezone: 15
+2018-04-20 20:28:37 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:28:37 INFO  DataHandler:38 - Greeter class returned string: Good day, Dnipro 
+2018-04-20 20:28:52 INFO  DataHandler:29 - Input line: [Dnipro, Cuba]
+2018-04-20 20:28:52 INFO  DataHandler:77 - city(DataHandle): Dnipro , timezone(DataHandle): Cuba
+2018-04-20 20:28:52 INFO  DataHandler:31 - Hour in specific timezone: 13
+2018-04-20 20:28:52 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:28:52 INFO  DataHandler:38 - Greeter class returned string: Good day, Dnipro 
+2018-04-20 20:29:05 INFO  DataHandler:29 - Input line: [Cuba, Cuba]
+2018-04-20 20:29:05 INFO  DataHandler:77 - city(DataHandle): Cuba , timezone(DataHandle): Cuba
+2018-04-20 20:29:05 INFO  DataHandler:31 - Hour in specific timezone: 13
+2018-04-20 20:29:05 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:29:05 INFO  DataHandler:38 - Greeter class returned string: Good day, Cuba 
+2018-04-20 20:29:19 INFO  DataHandler:29 - Input line: [Kiev]
+2018-04-20 20:29:19 INFO  DataHandler:77 - city(DataHandle): Kiev , timezone(DataHandle): Europe/Kiev
+2018-04-20 20:29:19 INFO  DataHandler:31 - Hour in specific timezone: 20
+2018-04-20 20:29:19 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:29:19 INFO  DataHandler:38 - Greeter class returned string: Good evening, Kiev 
+2018-04-20 20:29:47 INFO  DataHandler:29 - Input line: [Sydney]
+2018-04-20 20:29:47 INFO  DataHandler:77 - city(DataHandle): Sydney , timezone(DataHandle): Australia/Sydney
+2018-04-20 20:29:47 INFO  DataHandler:31 - Hour in specific timezone: 3
+2018-04-20 20:29:47 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:29:47 INFO  DataHandler:38 - Greeter class returned string: Good night, Sydney 
+2018-04-20 20:29:55 INFO  DataHandler:29 - Input line: [Kiev, Australia/Sydney]
+2018-04-20 20:29:55 INFO  DataHandler:77 - city(DataHandle): Kiev , timezone(DataHandle): Australia/Sydney
+2018-04-20 20:29:55 INFO  DataHandler:31 - Hour in specific timezone: 3
+2018-04-20 20:29:55 INFO  DataHandler:34 - Locale: US
+2018-04-20 20:29:55 INFO  DataHandler:38 - Greeter class returned string: Good night, Kiev 
+2018-04-20 20:35:23 INFO  DataHandler:29 - Input line: [Kiev]
+2018-04-20 20:35:23 INFO  DataHandler:77 - city(DataHandle): Kiev , timezone(DataHandle): Europe/Kiev
+2018-04-20 20:35:23 INFO  DataHandler:31 - Hour in specific timezone: 20
+2018-04-20 20:35:23 INFO  DataHandler:34 - Locale: RU
+2018-04-20 20:35:23 INFO  DataHandler:38 - Greeter class returned string: Добрый вечер, Kiev 

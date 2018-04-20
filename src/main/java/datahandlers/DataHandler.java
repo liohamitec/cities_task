@@ -5,13 +5,17 @@ import org.apache.log4j.*;
 
 import java.time.ZoneId;
 import java.util.Arrays;
+import java.util.Locale;
+import java.util.ResourceBundle;
 
 public class DataHandler {
     String city;
     String timezone;
 
+    private final static String BUNDLE_NAME = "data";
+    private final static ResourceBundle res = ResourceBundle.getBundle(BUNDLE_NAME);
 
-    final static Logger logger = Logger.getLogger(DataHandler.class);
+    private final static Logger logger = Logger.getLogger(DataHandler.class);
 
     public DataHandler(String[] args) {
         handle(args);
@@ -31,10 +35,7 @@ public class DataHandler {
             if (timezone == null) {
                 city = getCityFromInput(args,length);
                 if (!checkCityName(city)) {
-                    message = "Последий параметр не является идентификатором, значит относится к городу. " +
-                                "Доп символы кроме пробелов и букв в названии города недопустимы: " +
-                                city +
-                                "\nПрограмма завершена.";
+                    message = res.getString("msgError.wrongSymbolInName1");
                     logger.error(message);
                     throw new WrongInputException(message);
                 }
@@ -45,7 +46,7 @@ public class DataHandler {
         }
         else if (args.length == 1) {
             if (args[0].isEmpty()) {
-                message = "Параметр city не может быть пустым! Программа завершена.";
+                message = res.getString("msgError.emptyCityParam");
                 logger.error(message);
                 throw new WrongInputException(message);
             }
@@ -53,14 +54,13 @@ public class DataHandler {
             city = getCityFromInput(args,length);
             timezone = getTimeZoneFromCity(city);
         } else {
-            message = "Город не указан! Программа завершена.";
+            message = res.getString("msgError.emptyCityParam");
             logger.error(message);
             throw new WrongInputException(message);
         }
 
         if (!checkCityName(city)) {
-            message = "Доп символы кроме пробелов и букв в названии города недопустимы: " +
-                    city + "\nПрограмма завершена.";
+            message = res.getString("msgError.wrongSymbolInName2");
             logger.error(message);
             throw new WrongInputException(message);
         }

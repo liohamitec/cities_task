@@ -6,6 +6,7 @@ import java.io.ByteArrayOutputStream;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.Locale;
+import java.util.ResourceBundle;
 
 import static org.junit.Assert.*;
 
@@ -13,6 +14,9 @@ public class GreeterTest {
     final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     Greeter greeter = new Greeter();
 
+    private final static String BUNDLE_NAME_EN = "data_en_US";
+    private final static String BUNDLE_NAME_RU = "data_ru_RU";
+    private final static ResourceBundle res = ResourceBundle.getBundle(BUNDLE_NAME_EN);
 
     final String city = "CITYNAME";
     final ZoneId GMT  = ZoneId.of("GMT");
@@ -59,28 +63,24 @@ public class GreeterTest {
         int hour = ZonedDateTime.now(id).getHour();
 
         String resultStr;
+        ResourceBundle localRes;
 
         if (Locale.getDefault().getCountry() == "RU") {
-            if (hour >= 6 && hour < 9)
-                resultStr = "Доброе утро, ";
-            else if (hour >= 9 && hour < 19)
-                resultStr = "Добрый день, ";
-            else if (hour >= 19 && hour < 23)
-                resultStr = "Добрый вечер, ";
-            else
-                resultStr = "Спокойной ночи, ";
+            localRes = ResourceBundle.getBundle(BUNDLE_NAME_RU);
         } else {
-            if (hour >= 6 && hour < 9)
-                resultStr = "Good morning, ";
-            else if (hour >= 9 && hour < 19)
-                resultStr = "Good day, ";
-            else if (hour >= 19 && hour < 23)
-                resultStr = "Good evening, ";
-            else
-                resultStr = "Good night, ";
+            localRes = ResourceBundle.getBundle(BUNDLE_NAME_EN);
         }
 
-        return resultStr + city;
+        if (hour >= 6 && hour < 9)
+            resultStr = localRes.getString("msgGreeting.morning");
+        else if (hour >= 9 && hour < 19)
+            resultStr = localRes.getString("msgGreeting.day");
+        else if (hour >= 19 && hour < 23)
+            resultStr = localRes.getString("msgGreeting.evening");
+        else
+            resultStr = localRes.getString("msgGreeting.night");
+
+        return resultStr + " " + city;
     }
 
 
